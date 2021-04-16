@@ -34,6 +34,8 @@ class Calculator {
     this.currentOperand = ''
   }
 
+
+
   // CALCULATE function!
   compute() {
     let computation
@@ -54,7 +56,7 @@ class Calculator {
         computation = prev / current
         break
       case '^':
-        computation = prev ** current
+        computation = prev ** current        
         break
       default:
         return
